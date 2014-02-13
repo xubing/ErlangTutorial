@@ -6,7 +6,7 @@
     #erlc -W $< ; mv $@ ${OUT}
     erlc -W $< 
     ERL = erl -boot start_clean
-    MODS = math
+    MODS = math test1
 
 all: compile
 compile: ${MODS:%=%.beam}
