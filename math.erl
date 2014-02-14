@@ -1,5 +1,4 @@
 -module(math).
-<<<<<<< HEAD
 -export([odds_and_evens/1,
          quickSort/1,
          testcase/1,
@@ -7,10 +6,6 @@
          testtry/2,
          testParseBinary/1]).
 %% acc
-=======
--export([odds_and_evens/1,quicksort/1]).
-
->>>>>>> c3cb2b61c038f2849cecfcf48768e8ad12d50583
 odds_and_evens(L)->
     odds_and_evens_acc(L,[],[]).
 odds_and_evens_acc([H|T],Odds,Evens)->
@@ -21,7 +16,6 @@ odds_and_evens_acc([H|T],Odds,Evens)->
 odds_and_evens_acc([],Odds,Evens)->
     {Odds,Evens}.
 
-<<<<<<< HEAD
 %%quick sort
 quickSort([])->[];
 quickSort([H|T])->
@@ -60,10 +54,3 @@ testParseBinary(Bin)->
     <<A:Alen,B:Blen,_:LeftLen>> = Bin,
     {A,B,"中国.Beijing"}.
 
-=======
-quicksort([])->[];
-quicksort([H|T])->
-    quicksort([X|| X <- T, X < H]) ++
-    [H] ++
-    quicksort([Y||Y <- T,Y >= H]).
->>>>>>> c3cb2b61c038f2849cecfcf48768e8ad12d50583
