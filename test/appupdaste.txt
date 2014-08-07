@@ -1,0 +1,10 @@
+{
+"status": "success",
+"message":
+{
+"version":"1.20",
+"brief":"这个版本修复了很多的bug，更稳定了",
+"force":true,
+"downurl":"http://pic.cnr.cn/pic/nativepic/201408/t20140806_516130181.shtml"
+ }
+}
