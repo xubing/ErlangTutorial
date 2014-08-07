@@ -1,6 +1,7 @@
 -module(socket_examples).
 -export([nano_get_url/0]).
 
+
 nano_get_url()->
     nano_get_url("www.google.com").
 

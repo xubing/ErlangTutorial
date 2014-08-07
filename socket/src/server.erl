@@ -14,7 +14,6 @@
 
 
 
-
 -define( UINT, 32/unsigned-little-integer).
 -define( INT, 32/signed-little-integer).
 -define( USHORT, 16/unsigned-little-integer).
@@ -42,12 +41,14 @@ server_loop(ASock) ->
       io:format("recv data: ~p ~p ~n", [Len, Content]),
       gen_tcp:send(ASock, A),
       server_loop(ASock);
+
     {ok, Data} ->
       io:format("recv unformated data: ~p~n", [Data]),
       server_loop(ASock);
     {error, _} ->
       {ok, recv_error}
   end.
+
 
 
 %%   case gen_tcp:recv(ASock, 0) of
