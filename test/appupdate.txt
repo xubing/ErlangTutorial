@@ -5,6 +5,6 @@
 "version":"1.20",
 "brief":"这个版本修复了很多的bug，更稳定了",
 "force":false,
-"downurl":"http://pic.cnr.cn/pic/nativepic/201408/t20140806_516130181.shtml"
+"downurl":"https://raw.githubusercontent.com/xubing/ErlangTutorial/master/test/8-7release1.apk"
  }
 }
