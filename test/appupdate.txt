@@ -2,7 +2,7 @@
 "status": "success",
 "message":
 {
-"version":"2.1",
+"version":"2.0",
 "brief":"这个版本修复了很多的bug，更稳定了",
 "force":false,
 "downurl":"https://raw.githubusercontent.com/xubing/ErlangTutorial/master/test/8-7release1.apk"
